@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="horizontal-navbar">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.html">Hopital Mascara 1</a></li>
+        <li><a href="index.html">Hopital Mascara 2</a></li>
+        <li><a href="index.html">Hopital Tighenif</a></li>
+        <li><a href="index.html">Hopital Ghriss</a></li>
+        <li><a href="orientation.html"><i class="fa-solid fa-bell fa-shake fa-2xl" style="color: #f70202;"></i></a></li>
+    </ul>
+</nav>
+<div class="main">
+    <nav class="vertical-navbar">
+        <ul>
+            <li><a href="service.html">Urgences</a></li>
+            <li><a href="service.html">Maternité</a></li>
+            <li><a href="service.html">Pédiatrie</a></li>
+            <li><a href="pharmacie.html">Pharmacie</a></li>
+            <li><a href="ambulance.html">Ambulance</a></li>
+            <li><a href="transferePatient.html">Orienter un patient</a></li>
+            <li><a href="DemanderMédicament.html">Demander médicament</a></li>
+            <li><a href="demanderSang.html">Demander du sang</a></li>
+        </ul>
+    </nav>
+
+    <div class="">
+
+
+<form action="">
+  <h1>Demande d'orientation de patient</h1>
+  <input type="text" placeholder="Nom du patient" class="input">
+  <input type="text" placeholder="Prénom du patient" class="input">
+  <input type="number" placeholder="Age" class="input">
+  <select name="Service" id="service" class="input">
+    <option value="service" disabled selected>Service</option>
+    <option value="Urgences">Urgences</option>
+    <option value="Maternité">Maternité</option>
+    <option value="Pédiatrie">Pédiatrie</option>
+    <option value="Chirurgie Générale">Chirurgie Générale</option>
+  </select>
+  <select name="Service" id="service" class="input">
+    <option value="service" disabled selected>Etat du patient</option>
+    <option value="Urgences">Stable</option>
+    <option value="Maternité">Urgent</option>
+    <option value="Pédiatrie">En reanimation</option>
+  </select>
+
+  <input type="text" placeholder="Motif de d'orientation" class="input">
+  <textarea name="Lettre d'orientation" id="" class="input">Lettre d'orientation</textarea>
+  <button type="submit">Envoyer demande</button>
+</form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/9e021aac67.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
